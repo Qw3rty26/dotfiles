@@ -11,13 +11,11 @@
   outputs = { self, nixpkgs,  ... }: {
     nixosModules."guest@laptop" = { config, pkgs, ... }: {
       imports = [
-        ./hardware-configuration.nix
         self.inputs.laptop.nixosModules.guest
       ];
     };
     nixosModules."qwerty@laptop" = { config, pkgs, ... }: {
       imports = [
-        ./hardware-configuration.nix
         self.inputs.laptop.nixosModules.qwerty
       ];
     };
