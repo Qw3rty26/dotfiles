@@ -1,17 +1,20 @@
-#consoles.nix
+#kitty.nix
 {
-  description = "consoles home-manager flake";
+  description = "kitty home-manager flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
-    kitty.url = "path:./kitty";
   };
 
   outputs = { self, nixpkgs, ... }: {
     homeManagerModule.default = { config, pkgs, ... }: {
-      imports = [
-        self.inputs.kitty.homeManagerModule.default
+      home.packages = with pkgs; [
+        kitty
       ];
+
+      home.file.".config/kitty/kitty.conf" = {
+        source = ./kitty.conf;
+      };
     };
   };
 }

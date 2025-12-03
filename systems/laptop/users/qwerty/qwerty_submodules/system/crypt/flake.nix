@@ -13,9 +13,9 @@
   outputs = { self, nixpkgs, ... }: {
     homeManagerModule.default = { config, pkgs, ... }: {
       imports = [
-        #self.inputs.age.homeManagerModule.default
+        self.inputs.age.homeManagerModule.default
         #self.inputs.gpg.homeManagerModule.default
-        #self.inputs.sops.homeManagerModule.default
+        self.inputs.sops.homeManagerModule.default
         self.inputs.ssh.homeManagerModule.default
       ];
     };

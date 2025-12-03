@@ -9,8 +9,4 @@
 
 	services.xserver.windowManager.i3.enable = true;
 	services.xserver.excludePackages = [ pkgs.xterm ];
-
-	environment.systemPackages = with pkgs; [
-		kitty
-	];
 }

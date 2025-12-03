@@ -55,7 +55,7 @@
   users.users.guest = {
     isNormalUser = true;
     description = "guest";
-    password = "";
+    password = "guest";
     extraGroups = [ "networkmanager" "wheel" ];
   };
 
