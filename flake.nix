@@ -4,7 +4,7 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
-    laptop.url = "path:./systems/laptop";
+    systems.url = "path:./systems";
   };
 
   outputs = { self, nixpkgs, ... }:
@@ -17,7 +17,7 @@
       inherit system;
 
       modules = [
-        self.inputs.laptop.nixosModules.guest
+        self.inputs.systems.nixosModules."guest@laptop"
       ];
     };
     nixosConfigurations."qwerty@laptop" = nixpkgs.lib.nixosSystem {
@@ -25,7 +25,7 @@
       inherit system;
 
       modules = [
-        self.inputs.laptop.nixosModules.qwerty
+        self.inputs.systems.nixosModules."qwerty@laptop"
       ];
     };
   };
