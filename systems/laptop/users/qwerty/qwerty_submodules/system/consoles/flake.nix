@@ -1,16 +1,16 @@
-#editors.nix
+#consoles.nix
 {
-  description = "editors home-manager flake";
+  description = "consoles home-manager flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
-    vim.url = "path:./vim";
+    kitty.url = "path:./kitty";
   };
 
   outputs = { self, nixpkgs, ... }: {
     homeManagerModule.default = { config, pkgs, ... }: {
       imports = [
-        self.inputs.vim.homeManagerModule.default
+        self.inputs.kitty.homeManagerModule.default
       ];
     };
   };
