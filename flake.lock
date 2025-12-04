@@ -27,7 +27,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-i1P9PTUXLQvwxgLIaVOAIcWw0i5qndpWOPjxGdZIDkQ=",
+        "narHash": "sha256-y8m470KFcT/oMBJUd72u1TbqEkCubGBRE7HV++loo5Q=",
         "path": "./qwerty_submodules",
         "type": "path"
       },
@@ -351,7 +351,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-uuGtl168yYRnNEmTpoDbyNENJk+RVDYGL6K7ekzcSmk=",
+        "narHash": "sha256-lyoCtCyrst/CnI2M3/CLGBYiZnzSfSLJcSVGo0FID5A=",
         "path": "./laptop",
         "type": "path"
       },
@@ -958,7 +958,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-0nbBjbwFYQoRf4/sRhn5Mhum2DnVh8M753ISX+ABqqA=",
+        "narHash": "sha256-UV8pQaTNKy0b2VGFxWL6DtkLhz6yjomvt7Ddt7wYMfg=",
         "path": "./qwerty",
         "type": "path"
       },
@@ -980,7 +980,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-MmfCQDnLKHoZLQPeSPgh/HAu37odPcrf8VyxjDkK3M4=",
+        "narHash": "sha256-al2d1Ve43C+/+hDCJr19gmuPRTx0EUtcd/eME/texko=",
         "path": "./shells",
         "type": "path"
       },
@@ -1029,7 +1029,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-E1zX9o+mZawcje1S/nAcoyHkl8sGrx1yTa0uAFUYP+A=",
+        "narHash": "sha256-LoquwfHXg0GRVmZOJWGVfWtlkj5byWp77S7H9DDyuwM=",
         "path": "./system",
         "type": "path"
       },
@@ -1045,7 +1045,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-loLUXsIGGEBjCHG/2DHJnGt8+drwe8QQ986uw1Wwb98=",
+        "narHash": "sha256-aIyn2PZduEHdwIaxs6b4QJYuPDQvKLy0usA2bVpkaUU=",
         "path": "./systems",
         "type": "path"
       },
@@ -1062,7 +1062,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-4duG/e38E6Ih6fPx6zhEMheS5xIHF+RwC8dcVajLsIw=",
+        "narHash": "sha256-axX40VP/M68cO6mfRxsf4dzpniqTDXk7HcowkmAa2mI=",
         "path": "./users",
         "type": "path"
       },
@@ -1092,7 +1092,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-hThUjNmnbvu0KgXJ9CAaP/CpXhjSFNDdtVJJGH6phlY=",
+        "narHash": "sha256-kTgVGd64k8dJV4KfkqNzvEnk8pk2ySsa5unA4pgqu3s=",
         "path": "./zsh",
         "type": "path"
       },

@@ -8,16 +8,20 @@
 
   outputs = { self, nixpkgs, ... }: {
     homeManagerModule.default = { config, pkgs, ... }: {
-      home.packages = with pkgs; [
-        zsh
-      ];
+      programs.zsh = {
+        enable = true;
+        dotDir = "/.config/zsh";
+
+        oh-my-zsh.enable = true;
+      };
 
       home.sessionVariables = { # set zsh config path to /.config/zsh
         ZDOTDIR = "${config.home.homeDirectory}/.config/zsh";
       };
 
-      home.file.".config/zsh/.zshrc" = {
-        source = ./.zshrc;
+      home.file.".config/zsh/oh-my-zsh" = {
+        source = ./oh-my-zsh;
+        recursive = true;
       };
     };
   };
