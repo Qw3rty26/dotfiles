@@ -8,14 +8,14 @@ set $mod Mod4
 
 
 #On-Startup Configs
-exec_always --no-startup-id i3-msg reload
-exec_always --no-startup-id feh --bg-scale /home/Qw3rty26/Main/Documents/Qw3rty26/images/touhou/reimu.png
+#exec_always --no-startup-id i3-msg reload
+#exec_always --no-startup-id feh --bg-scale /home/Qw3rty26/Main/Documents/Qw3rty26/images/touhou/reimu.png
 
 #Start compositor daemon picom
-exec_always --no-startup-id picom --daemon 
+#exec_always --no-startup-id picom --daemon 
 
 #Set font
-font pango:Monocraft 10
+#font pango:Monocraft 10
 
 #Set window borders and gaps
 default_border normal
@@ -64,13 +64,13 @@ bindsym $mod+b bar mode toggle
 bindsym $mod+Return exec kitty
 
 set $SCRIPTS /home/Qw3rty26/.scripts
-bindsym XF86KbdBrightnessUp exec --no-startup-id sudo $SCRIPTS/KbdBrightness/SetBrightness Up
-bindsym XF86KbdBrightnessDown exec --no-startup-id sudo $SCRIPTS/KbdBrightness/SetBrightness Down
-bindsym XF86MonBrightnessUp exec --no-startup-id $SCRIPTS/MonBrightness/SetBrightness Up
-bindsym XF86MonBrightnessDown exec --no-startup-id $SCRIPTS/MonBrightness/SetBrightness Down
-bindsym XF86TouchpadToggle exec --no-startup-id $SCRIPTS/Touchpad/ToggleTouchpad
+#bindsym XF86KbdBrightnessUp exec --no-startup-id sudo $SCRIPTS/KbdBrightness/SetBrightness Up
+#bindsym XF86KbdBrightnessDown exec --no-startup-id sudo $SCRIPTS/KbdBrightness/SetBrightness Down
+#bindsym XF86MonBrightnessUp exec --no-startup-id $SCRIPTS/MonBrightness/SetBrightness Up
+#bindsym XF86MonBrightnessDown exec --no-startup-id $SCRIPTS/MonBrightness/SetBrightness Down
+#bindsym XF86TouchpadToggle exec --no-startup-id $SCRIPTS/Touchpad/ToggleTouchpad
 #bindsym XF86Sleep exec /home/qwerty/scripts/SleepMode.sh
-bindsym XF86Launch1 exec --no-startup-id firefox
+#bindsym XF86Launch1 exec --no-startup-id firefox
 bindsym --release $mod+Shift+s exec --no-startup-id scrot -s -e 'xclip -selection clipboard -target image/png -in $f && rm $f'
 bindsym Control+q kill
 

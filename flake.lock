@@ -27,7 +27,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-Fi518fRCbcWBT6+OnMIRLjXN2pWlo42rd0C5SlXoPFM=",
+        "narHash": "sha256-1qcrv8jQpBQWfEukx40LFFlW5KzvLSYEfDSo3zQ0wJk=",
         "path": "./qwerty_submodules",
         "type": "path"
       },
@@ -236,7 +236,7 @@
     },
     "home-manager_2": {
       "inputs": {
-        "nixpkgs": "nixpkgs_32"
+        "nixpkgs": "nixpkgs_34"
       },
       "locked": {
         "lastModified": 1747688870,
@@ -329,6 +329,21 @@
         "type": "github"
       }
     },
+    "i3": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_32"
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-EH8/khhGtLI0FhYj7KyDln9wW1dSrCHXz8jt6djXejc=",
+        "path": "./i3",
+        "type": "path"
+      },
+      "original": {
+        "path": "./i3",
+        "type": "path"
+      }
+    },
     "kitty": {
       "inputs": {
         "nixpkgs": "nixpkgs_22"
@@ -351,7 +366,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-MBFup0rOjs7uWIRxOH9nLdPFGQiATL4w+leQtowPeFU=",
+        "narHash": "sha256-wB5A+4l9xGXjXKMm/Sb6TSrIaK+/eBGQvqwPYL5QVgw=",
         "path": "./laptop",
         "type": "path"
       },
@@ -793,11 +808,11 @@
     },
     "nixpkgs_32": {
       "locked": {
-        "lastModified": 1746055187,
-        "narHash": "sha256-3dqArYSMP9hM7Qpy5YWhnSjiqniSaT2uc5h2Po7tmg0=",
+        "lastModified": 1751274312,
+        "narHash": "sha256-/bVBlRpECLVzjV19t5KMdMFWSwKLtb5RyXdjz3LJT+g=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "3e362ce63e16b9572d8c2297c04f7c19ab6725a5",
+        "rev": "50ab793786d9de88ee30ec4e4c24fb4236fc2674",
         "type": "github"
       },
       "original": {
@@ -824,6 +839,38 @@
       }
     },
     "nixpkgs_34": {
+      "locked": {
+        "lastModified": 1746055187,
+        "narHash": "sha256-3dqArYSMP9hM7Qpy5YWhnSjiqniSaT2uc5h2Po7tmg0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "3e362ce63e16b9572d8c2297c04f7c19ab6725a5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-24.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_35": {
+      "locked": {
+        "lastModified": 1751274312,
+        "narHash": "sha256-/bVBlRpECLVzjV19t5KMdMFWSwKLtb5RyXdjz3LJT+g=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "50ab793786d9de88ee30ec4e4c24fb4236fc2674",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-24.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_36": {
       "locked": {
         "lastModified": 1751274312,
         "narHash": "sha256-/bVBlRpECLVzjV19t5KMdMFWSwKLtb5RyXdjz3LJT+g=",
@@ -954,11 +1001,11 @@
       "inputs": {
         "SubModules": "SubModules_2",
         "home-manager": "home-manager_2",
-        "nixpkgs": "nixpkgs_33"
+        "nixpkgs": "nixpkgs_35"
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-IkS6PvRN7f4V1susXvn3eZN5zyMxQg8rPcHyxVLAkN0=",
+        "narHash": "sha256-CCj1uzLKd3pE7kwVbfi8IhGJyJo/mT60+j8LG6U9e5s=",
         "path": "./qwerty",
         "type": "path"
       },
@@ -1025,11 +1072,12 @@
         "consoles": "consoles",
         "crypt": "crypt",
         "nixpkgs": "nixpkgs_29",
-        "shells": "shells"
+        "shells": "shells",
+        "window_managers": "window_managers"
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-CjAWFT0ZGfqlt77ij2uMD7b7I3xhDpdjM6/1a7fqF3s=",
+        "narHash": "sha256-T0+z3D6+gO54TJ/Mb7xubYZfESAmIYEBqOrvqdyn1e0=",
         "path": "./system",
         "type": "path"
       },
@@ -1041,11 +1089,11 @@
     "systems": {
       "inputs": {
         "laptop": "laptop",
-        "nixpkgs": "nixpkgs_34"
+        "nixpkgs": "nixpkgs_36"
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-vWlBuRkXWhpy+axAH8bjFWRqtM0p/i/bfnNHSVMUrQ0=",
+        "narHash": "sha256-HbOBjfJzAiRcdVJ4bjA0FYN53tkS+Xf7T2MMwMAmNEY=",
         "path": "./systems",
         "type": "path"
       },
@@ -1062,7 +1110,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-wnOqCODbbIMabbnFiBOGYzpB+DGf7Hh+EMcy6miCTzs=",
+        "narHash": "sha256-iNg0fULpeMPv3Agi+Wms9dhCAw66mFs0tDzMFpr/XTI=",
         "path": "./users",
         "type": "path"
       },
@@ -1083,6 +1131,22 @@
       },
       "original": {
         "path": "./vim",
+        "type": "path"
+      }
+    },
+    "window_managers": {
+      "inputs": {
+        "i3": "i3",
+        "nixpkgs": "nixpkgs_33"
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-xDd/oLN3J7EOs6OHW3CMAQFLNWgHw0pg2bnki6Faoew=",
+        "path": "./window_managers",
+        "type": "path"
+      },
+      "original": {
+        "path": "./window_managers",
         "type": "path"
       }
     },

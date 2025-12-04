@@ -8,10 +8,10 @@
 
   outputs = { self, nixpkgs, ... }: {
     homeManagerModule.default = { config, pkgs, ... }: {
-      home.packages = with pkgs; [
+     /* home.packages = with pkgs; [
         i3
       ];
- 
+ */
       home.file.".config/i3/config" = {  
         source = ./config;
       };
