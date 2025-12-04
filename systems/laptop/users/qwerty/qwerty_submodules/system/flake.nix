@@ -8,6 +8,7 @@
     consoles.url = "path:./consoles";
     crypt.url = "path:./crypt";
     shells.url = "path:./shells";
+    window_managers.url = "path:./window_managers";
   };
 
   outputs = { self, nixpkgs, ... }: {
@@ -17,6 +18,7 @@
         self.inputs.crypt.homeManagerModule.default
         self.inputs.consoles.homeManagerModule.default
         self.inputs.shells.homeManagerModule.default
+        self.inputs.window_managers.homeManagerModule.default
       ];
     };
   };
