@@ -7,6 +7,7 @@
     audio.url = "path:./audio";
     consoles.url = "path:./consoles";
     crypt.url = "path:./crypt";
+    shells.url = "path:./shells";
   };
 
   outputs = { self, nixpkgs, ... }: {
@@ -15,6 +16,7 @@
         self.inputs.audio.homeManagerModule.default
         self.inputs.crypt.homeManagerModule.default
         self.inputs.consoles.homeManagerModule.default
+        self.inputs.shells.homeManagerModule.default
       ];
     };
   };
