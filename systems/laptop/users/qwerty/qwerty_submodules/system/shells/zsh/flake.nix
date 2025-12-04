@@ -12,6 +12,13 @@
         zsh
       ];
 
+      home.sessionVariables = { # set zsh config path to /.config/zsh
+        ZDOTDIR = "${config.home.homeDirectory}/.config/zsh";
+      };
+
+      home.file.".config/zsh/.zshrc" = {
+        source = ./.zshrc;
+      };
     };
   };
 }
