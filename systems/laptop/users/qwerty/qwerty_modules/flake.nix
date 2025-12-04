@@ -5,7 +5,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
 
-    system_module.url = "path:./system";
+    system_module.url = "path:./system_module";
   };
 
   outputs = { self, nixpkgs, ... }: {

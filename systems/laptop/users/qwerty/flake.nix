@@ -18,10 +18,10 @@
     in
     {
       imports = [
+        home-manager.nixosModules.home-manager
         ./configuration.nix
         ./graphical-environment.nix
         self.inputs.MainModules.nixosModules.default
-        home-manager.nixosModules.home-manager
       ];
       
         home-manager.users.${username} = nixpkgs.lib.mkForce (self.inputs.SubModules.homeManagerModule.default {
