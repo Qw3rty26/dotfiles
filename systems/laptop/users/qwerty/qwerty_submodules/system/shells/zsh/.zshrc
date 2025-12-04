@@ -3,8 +3,6 @@ HISTSIZE="1000"
 SAVEHIST="1000"
 HISTFILE="$HOME/.config/zsh/zsh_history"
 
-#export ZDOTDIR="$HOME/.zsh/"
-
 #set up custom scripts dir
 export PATH=/home/Qw3rty26/.scripts:$PATH
 
@@ -12,7 +10,7 @@ export PATH=/home/Qw3rty26/.scripts:$PATH
 #It's at EOF of this file, for some reason it only works that way :P
 
 #autosuggestions dir
-source $HOME/.config/zsh/autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 #syntax highlight dir
 source $HOME/.config/zsh/syntax-highlighting/zsh-syntax-highlighting.zsh

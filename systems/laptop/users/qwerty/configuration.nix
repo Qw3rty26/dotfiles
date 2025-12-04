@@ -57,6 +57,8 @@
     isNormalUser = true;
     description = "qwerty";
     extraGroups = [ "networkmanager" "wheel" ];
+    shell = pkgs.zsh;
+    ignoreShellProgramCheck = true;
     password = "277353";
   };
 
