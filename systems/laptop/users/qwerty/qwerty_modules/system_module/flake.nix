@@ -5,8 +5,8 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
     
-    crypt_module.url = "path:./crypt";
-    window_managers_module.url = "path:./window_managers";
+    crypt_module.url = "path:./crypt_module";
+    window_managers_module.url = "path:./window_managers_module";
   };
 
   outputs = { self, nixpkgs, ... }: {

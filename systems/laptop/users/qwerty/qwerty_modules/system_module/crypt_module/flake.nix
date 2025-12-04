@@ -5,7 +5,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
 
-    ssh_module.url = "path:./ssh";
+    ssh_module.url = "path:./ssh_module";
   };
 
   outputs = { self, nixpkgs, ... }: {
