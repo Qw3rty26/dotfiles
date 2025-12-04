@@ -6,7 +6,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
     #configuration.url = "path:./"
     home-manager.url = "github:nix-community/home-manager/release-24.11";
-   # MainModules.url = "path:./qwerty_modules";
+    MainModules.url = "path:./qwerty_modules";
     SubModules.url = "path:./qwerty_submodules";
   };
 
@@ -20,7 +20,7 @@
       imports = [
         ./configuration.nix
         ./graphical-environment.nix
-    #    self.inputs.MainModules.nixosModules.default
+        self.inputs.MainModules.nixosModules.default
         home-manager.nixosModules.home-manager
       ];
       
