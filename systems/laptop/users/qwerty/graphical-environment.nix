@@ -5,6 +5,7 @@
 	services.xserver.xkb.layout = "it";
 	#servics.xserver.xkbOptions = "grp:
 
+        services.xserver.windowManager.i3.enable = true;
 	services.xserver.displayManager.lightdm.enable = true;
     	services.xserver.excludePackages = [ pkgs.xterm ];
 }

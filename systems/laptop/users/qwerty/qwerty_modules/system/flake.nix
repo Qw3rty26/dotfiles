@@ -5,15 +5,15 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
     
-    crypt.url = "path:./crypt";
-    window_managers.url = "path:./window_managers";
+    crypt_module.url = "path:./crypt";
+    window_managers_module.url = "path:./window_managers";
   };
 
   outputs = { self, nixpkgs, ... }: {
     nixosModules.default = { config, pkgs, ... }: {
       imports = [
-        self.inputs.crypt.nixosModules.default
-        self.inputs.window_managers.nixosModules.default
+        self.inputs.crypt_module.nixosModules.default
+        self.inputs.window_managers_module.nixosModules.default
       ];
     };
   };
