@@ -1,2 +1,6 @@
 # Contains private ssh key :)
 **/id_ed25519
+
+
+# temporary nixOS dir
+result

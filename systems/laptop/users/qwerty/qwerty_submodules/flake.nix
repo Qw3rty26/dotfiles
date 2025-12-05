@@ -18,6 +18,9 @@
       home.homeDirectory = "/home/${username}";
       home.stateVersion = "24.11";
       programs.bash.enable = true;
+
+      xdg.enable = true;
+      xdg.configHome = "/home/${username}/.config"; # config files will be found inside ~/.config/
  
       imports = [
         self.inputs.browsers.homeManagerModule.default
