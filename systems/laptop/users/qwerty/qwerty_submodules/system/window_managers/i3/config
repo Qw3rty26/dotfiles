@@ -12,8 +12,7 @@ exec_always --no-startup-id i3-msg reload
 #exec_always --no-startup-id feh --bg-scale $HOME/.config/i3/wallpapers/touhou/reimu.png
 
 # picks a random wallpaper
-exec_always --no-startup-id feh --bg-scale $(find $HOME/.config/i3/wallpapers/ -type f | shuf -n1)
-
+exec_always --no-startup-id sh -c 'feh --bg-scale "$(find -L $HOME/.config/i3/wallpapers/ -type f | shuf -n1)"'
 
 #Start compositor daemon picom
 exec_always --no-startup-id picom --daemon 
