@@ -15,9 +15,9 @@ exec_always --no-startup-id i3-msg reload
 exec_always --no-startup-id sh -c 'feh --bg-scale "$(find -L $HOME/.config/i3/wallpapers/ -type f | shuf -n1)"'
 
 #Start compositor daemon picom
-#exec_always --no-startup-id picom --daemon 
+exec_always --no-startup-id picom --daemon 
 
-exec --no-startup-id picom &
+#exec --no-startup-id picom &
 
 #Set font
 font pango:Monocraft 10
