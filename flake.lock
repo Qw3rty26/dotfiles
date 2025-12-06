@@ -43,7 +43,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-WInBWWHDcVofsmAzxMkgJ+CBsuuDaCbH59X378x1QB8=",
+        "narHash": "sha256-65ftRUX8A2h10UaJARNomT7YTn4MHAeEnWl/g6L12Ws=",
         "path": "./qwerty_submodules",
         "type": "path"
       },
@@ -428,7 +428,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-dzixuB8vULBn4oeQ5yfTY7W7jri1XlA6GZYrxr8tHTw=",
+        "narHash": "sha256-RE741lySg+lEo5ZQF4MiyMXbE/0xbtke/NDi0D+1XUU=",
         "path": "./laptop",
         "type": "path"
       },
@@ -1193,7 +1193,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-hU0XWot2hCF9D5g1I9gtRHh+AeUtiQp/0UG0+jBIrCk=",
+        "narHash": "sha256-4M9LIG6jhtV4M3x+AyqWvY68BRURuy6iNCw6tRx+VH4=",
         "path": "./picom",
         "type": "path"
       },
@@ -1211,7 +1211,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-IH7OrhpOUe1HUacmNhQDpgOVGKatAmCGYWWhKurQACw=",
+        "narHash": "sha256-UQpDBieT2FiExEd55+8luT4YsYJhoRjyDLn4c8elTC8=",
         "path": "./qwerty",
         "type": "path"
       },
@@ -1298,7 +1298,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-xlOrc8aiGhrP9wPaE6AUopkZNGFG37Tnzri/mTa2vx8=",
+        "narHash": "sha256-S5ht3jQQ6uMfAlA19L1xgAEdXv4DbUa59JRnKEqUDl8=",
         "path": "./system",
         "type": "path"
       },
@@ -1331,7 +1331,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-YmfFSibMwm38OpKeRJm1DU/lp/GkVh7K8Y/QeQytI2s=",
+        "narHash": "sha256-ExnnPwDfufmlE+pXOFMm5U6/E4biBxp9KNoH7kVjqs0=",
         "path": "./systems",
         "type": "path"
       },
@@ -1348,7 +1348,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-lWPYDORHc4b1OUa74Xc2FTT1xbwyIbf4POQOs4pmQDo=",
+        "narHash": "sha256-dLTcWauVpr8XMW569D3GwZil4jrWbojLEh9QdEbDTFU=",
         "path": "./users",
         "type": "path"
       },
@@ -1381,7 +1381,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-QcQeRz9FS9PFlZBxK5/2qIMcAvsXiaWET3dDBaPf62I=",
+        "narHash": "sha256-m9bsRcw8X4b0ts+j1z+CEJagr8IPB0aV7SZi0O3PVDw=",
         "path": "./window_managers",
         "type": "path"
       },
