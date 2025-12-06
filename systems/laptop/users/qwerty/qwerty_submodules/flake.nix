@@ -12,7 +12,12 @@
     system.url = "path:./system";
   };
 
-  outputs = { self, nixpkgs, ... }: {
+  outputs = { self, nixpkgs, ... }:
+  let
+    username = "qwerty";
+    xdgPath = "/home/${username}/.config";
+  in
+  {
     homeManagerModule.default = { config, pkgs, username, ... }: {
       home.username = nixpkgs.lib.mkForce(username);
       home.homeDirectory = "/home/${username}";
@@ -20,7 +25,11 @@
       programs.bash.enable = true;
 
       xdg.enable = true;
-      xdg.configHome = "/home/${username}/.config"; # config files will be found inside ~/.config/
+      xdg.configHome = "${xdgPath}"; # config files will be found inside ~/.config/
+
+      home.sessionPath = [
+        "${xdgPath}/scripts"
+      ];
  
       imports = [
         self.inputs.browsers.homeManagerModule.default
