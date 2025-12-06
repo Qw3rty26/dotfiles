@@ -14,24 +14,24 @@
       };
 
       home.sessionVariables = { # set zsh dotfiles path to /.config/zsh
-        ZDOTDIR = "${config.home.homeDirectory}/.config/zsh";
+        ZDOTDIR = "${config.home.homeDirectory}/zsh";
       };
 
-      home.file.".config/zsh/.zshrc" = {
+      home.file."${config.xdg.configHome}/zsh/.zshrc" = {
         source = ./.zshrc;
       };
 
-      home.file.".config/zsh/oh-my-zsh" = {
+      home.file."${config.xdg.configHome}/zsh/oh-my-zsh" = {
         source = ./oh-my-zsh;
         recursive = true;
       };
       
-      home.file.".config/zsh/syntax-highlighting" = {
+      home.file."${config.xdg.configHome}/zsh/syntax-highlighting" = {
         source = ./syntax-highlighting;
         recursive = true;
       };
 
-      home.file.".config/zsh/zsh-autosuggestions" = {
+      home.file."${config.xdg.configHome}/zsh/zsh-autosuggestions" = {
         source = ./zsh-autosuggestions;
         recursive = true;
       };

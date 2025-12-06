@@ -1,6 +1,6 @@
 #system.nix
 {
-  description = "audio home-manager flake";
+  description = "system home-manager flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
