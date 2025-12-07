@@ -26,6 +26,8 @@
 
       xdg.enable = true;
       xdg.configHome = "${xdgPath}"; # config files will be found inside ~/.config/
+      xdg.cacheHome  = "/home/${username}/.local/share/cache";
+      xdg.dataHome   = "/home/${username}/.local/share";
 
       home.sessionPath = [
         "${xdgPath}/scripts"
