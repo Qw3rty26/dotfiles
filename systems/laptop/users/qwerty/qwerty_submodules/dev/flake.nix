@@ -14,5 +14,10 @@
         self.inputs.git.homeManagerModule.default
       ];
     };
+    homeManagerModule.celeste = { config, pkgs, ... }: {
+      imports = [
+        self.inputs.git.homeManagerModule.default
+      ];
+    };
   };
 }

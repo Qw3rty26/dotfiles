@@ -14,5 +14,10 @@
         self.inputs.firefox.homeManagerModule.default
       ];
     };
+    homeManagerModule.celeste = { config, pkgs, ...} : {
+      imports = [     
+        self.inputs.firefox.homeManagerModule.default
+      ];
+    };
   };
 }

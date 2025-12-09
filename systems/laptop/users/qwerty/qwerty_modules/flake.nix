@@ -13,6 +13,11 @@
       imports = [
         self.inputs.system_module.nixosModules.default
       ];
-    }; 
+    };
+    nixosModules.celeste = { config, pkgs, ... }: {
+      imports = [
+        self.inputs.system_module.nixosModules.default
+      ];
+    };  
   };
 }

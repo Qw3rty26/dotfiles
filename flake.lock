@@ -7,7 +7,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-hdnfWLO79kmSFb+n0XsAywuDZ7EZCztp9IUgQXin0lA=",
+        "narHash": "sha256-J48/Vo2Yp0ZiKoOqgx0VuthQbwFX6ikpOUHQlOHt5ac=",
         "path": "./qwerty_modules",
         "type": "path"
       },
@@ -43,7 +43,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-40HzIC9OEeqiXTbfk1y+X0q1Vw2+d74mutidQQSIdgQ=",
+        "narHash": "sha256-nloknvnQ+c8ChYIVcMvuPKR0UCae42ENldbFmm11cIY=",
         "path": "./qwerty_submodules",
         "type": "path"
       },
@@ -91,7 +91,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-c4rjGeKbGz0Ebfw3EesWw3KTGGWID6ksNvEp89+9O2c=",
+        "narHash": "sha256-fyjsTjVeNZQf3PO4xsVEER3w+sspgKWngzL7gfM3HA0=",
         "path": "./browsers",
         "type": "path"
       },
@@ -174,7 +174,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-hkX8NVWXWd3a22Wtqhy9eY1o/PBRlN+FyG0BlqmC/Gw=",
+        "narHash": "sha256-ajo9Xlyn90/n7MIRCMVI3r5mkHaSOB9EU4vEmaBt358=",
         "path": "./dev",
         "type": "path"
       },
@@ -190,7 +190,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-nxOLKaYOOsv/3vEiGN9Rsr71AzTGaijvJ8pV9N5hk/I=",
+        "narHash": "sha256-Y56KKJzfPlWvfPbzV0T43x3OnD9SskkATJ/7n/kvJYc=",
         "path": "./editors",
         "type": "path"
       },
@@ -221,7 +221,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-D0gm0vMAsBT1aIgrSxBuhTW2KTWbo5VD/zkzKGbFZjA=",
+        "narHash": "sha256-bqGrB5sskHkVQbqyLeQdMWFjqEcvePD9Yb0Ygdse/KA=",
         "path": "./firefox",
         "type": "path"
       },
@@ -443,7 +443,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-koGoB5wM6mbA6pbnaS3V358Yb/9aMf9V0rmOF1YE6b4=",
+        "narHash": "sha256-P61Bi7Eqi8HJ5Z+0FmjdHuRRoqRf/ASzBd33eWVOTKc=",
         "path": "./laptop",
         "type": "path"
       },
@@ -459,7 +459,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-rYhNf/qs1yp+HBE76nRyzf06jOERyXU8cgSFxgAg2Nc=",
+        "narHash": "sha256-VOrnauCEe1BqXkqNnFogE7IhvgEX9LbKM7LxglpGXIU=",
         "path": "./misc",
         "type": "path"
       },
@@ -1306,7 +1306,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-H9bKmWRNbhjiDNzQDfm81PlalWCmPoum1jMxzs7CXnc=",
+        "narHash": "sha256-MoRK0gAG3Bkf/OyaWIiMZtO25Fw2vVPBr9bshrYLlHY=",
         "path": "./qwerty",
         "type": "path"
       },
@@ -1377,7 +1377,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-0AT3agX6QwuIG5F7bT+75fzpDERAIafuB99sJOpX6wg=",
+        "narHash": "sha256-fRW6tpoc4gdU3MG3xyycuW2RRGwVvcoe93ZO/GLsGXo=",
         "path": "./shells",
         "type": "path"
       },
@@ -1443,7 +1443,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-UzLfcuuQJbIixrynSD0/3mz4be8KaqY4bY3CDkB942U=",
+        "narHash": "sha256-fJuJAtTaYTKjyUOz+x2be5TiwCXCxO5Vlfd5MBYnmRc=",
         "path": "./system",
         "type": "path"
       },
@@ -1476,7 +1476,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-CL4M0RsYkebePb1paV/TlT8owu85uQy89k3bq30iuW0=",
+        "narHash": "sha256-UZxGAWU4eegk3A2usPDwVd+QeGWH/trd9vkZtjUVjbY=",
         "path": "./systems",
         "type": "path"
       },
@@ -1508,7 +1508,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-wokStbEIkNr4/dZRBumsK7TTu+/yILFSYKCs/22NpKE=",
+        "narHash": "sha256-0pvLk/Tjb9/B4xEcdQw7PU4gF87J1NzTqdVwaCthMWA=",
         "path": "./users",
         "type": "path"
       },
@@ -1572,7 +1572,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-vKAoCxzbZ5qN47MYK31PZQdZHB+SWjpVg0jGy38g0QY=",
+        "narHash": "sha256-lFBKuO0afux64nmmzf0KDyRGODd3/s2G1a9x7m5cJNU=",
         "path": "./zsh",
         "type": "path"
       },

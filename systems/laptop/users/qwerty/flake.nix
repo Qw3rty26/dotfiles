@@ -13,21 +13,23 @@
   outputs = { self, nixpkgs, home-manager, ... }: {
     nixosModules.default = { config, pkgs, ...}:
     let
-      # SET HOME-MANAGER USERNAME
       username = "qwerty";
+      #theme = "default";
+      theme = "celeste";
     in
     {
       imports = [
         home-manager.nixosModules.home-manager
         ./configuration.nix
         ./graphical-environment.nix
-        self.inputs.MainModules.nixosModules.default
+        self.inputs.MainModules.nixosModules.${theme}
       ];
       
         home-manager.users.${username} = nixpkgs.lib.mkForce (self.inputs.SubModules.homeManagerModule.default {
         config = config;
         pkgs = pkgs;
         username = username;
+        theme = theme;
       }); # IMPORTS HOME-MANAGER SUB MODULES
     };
   };

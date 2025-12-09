@@ -5,12 +5,19 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
     neofetch.url = "path:./neofetch";
+    tree.url = "path:./tree";
   };
 
   outputs = { self, nixpkgs, ... }: {
     homeManagerModule.default = { config, pkgs, ... }: {
       imports = [
         self.inputs.neofetch.homeManagerModule.default
+      ];
+    };
+    homeManagerModule.celeste = { config, pkgs, ... }: {
+      imports = [
+        self.inputs.neofetch.homeManagerModule.default
+        self.inputs.tree.homeManagerModule.default
       ];
     };
   };

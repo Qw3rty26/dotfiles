@@ -13,5 +13,10 @@
         self.inputs.vim.homeManagerModule.default
       ];
     };
+    homeManagerModule.celeste = { config, pkgs, ... }: {
+      imports = [
+        self.inputs.vim.homeManagerModule.default
+      ];
+    };
   };
 }

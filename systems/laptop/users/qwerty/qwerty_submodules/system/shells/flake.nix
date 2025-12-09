@@ -13,5 +13,10 @@
         self.inputs.zsh.homeManagerModule.default
       ];
     };
+    homeManagerModule.celeste = { config, pkgs, ... }: {
+      imports = [
+        self.inputs.zsh.homeManagerModule.celeste
+      ];
+    };
   };
 }

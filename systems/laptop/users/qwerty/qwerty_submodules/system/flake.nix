@@ -23,5 +23,15 @@
         self.inputs.window_managers.homeManagerModule.default
       ];
     };
+    homeManagerModule.celeste = { config, pkgs, ... }: {
+      imports = [
+        self.inputs.audio.homeManagerModule.default
+        self.inputs.crypt.homeManagerModule.default
+        self.inputs.consoles.homeManagerModule.default
+        self.inputs.scripts.homeManagerModule.default
+        self.inputs.shells.homeManagerModule.celeste
+        self.inputs.window_managers.homeManagerModule.default
+      ];
+    };
   };
 }

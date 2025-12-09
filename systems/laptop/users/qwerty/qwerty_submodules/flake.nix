@@ -18,7 +18,7 @@
     xdgPath = "/home/${username}/.config";
   in
   {
-    homeManagerModule.default = { config, pkgs, username, ... }: {
+    homeManagerModule.default = { config, pkgs, username, theme, ... }: {
       home.username = nixpkgs.lib.mkForce(username);
       home.homeDirectory = "/home/${username}";
       home.stateVersion = "24.11";
@@ -32,13 +32,13 @@
       home.sessionPath = [
         "${xdgPath}/scripts"
       ];
- 
+
       imports = [
-        self.inputs.browsers.homeManagerModule.default
-        self.inputs.dev.homeManagerModule.default
-        self.inputs.editors.homeManagerModule.default
-        self.inputs.misc.homeManagerModule.default
-        self.inputs.system.homeManagerModule.default
+        self.inputs.browsers.homeManagerModule.${theme}
+        self.inputs.dev.homeManagerModule.${theme}
+        self.inputs.editors.homeManagerModule.${theme}
+        self.inputs.misc.homeManagerModule.${theme}
+        self.inputs.system.homeManagerModule.${theme}
       ];
     }; 
   };
