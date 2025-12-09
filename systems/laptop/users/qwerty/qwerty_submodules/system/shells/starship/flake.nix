@@ -12,7 +12,7 @@
         starship
       ];
       home.sessionVariables = { # set zsh dotfiles path to /.config/starship
-        STARSHIP_CONFIG = "${config.home.homeDirectory}/.config/starship";
+        STARSHIP_CONFIG = "${config.home.homeDirectory}/.config/starship/starship.toml";
       };
       home.file.".config/starship/starship.toml" = {
         source = ./starship_default;
@@ -24,7 +24,7 @@
         starship
       ];
       home.sessionVariables = { # set zsh dotfiles path to /.config/starship
-        STARSHIP_CONFIG = "${config.home.homeDirectory}/.config/starship";
+        STARSHIP_CONFIG = "${config.home.homeDirectory}/.config/starship/starship.toml";
       };
       home.file.".config/starship/starship.toml" = {
         source = ./starship_celeste;

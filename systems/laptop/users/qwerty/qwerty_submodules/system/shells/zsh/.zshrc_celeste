@@ -12,8 +12,8 @@ source $HOME/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 #syntax highlight dir
 source $HOME/.config/zsh/syntax-highlighting/zsh-syntax-highlighting.zsh
 
-#initialize starship
-eval "$(starship init zsh)"
+ZSH_THEME="random"
+ZSH_THEME_RANDOM_CANDIDATES=( "agnoster" )
 
-# Celeste zsh theme made by Qw3rty26
-#
+#oh-my-zsh
+source $HOME/.config/zsh/oh-my-zsh/oh-my-zsh.sh

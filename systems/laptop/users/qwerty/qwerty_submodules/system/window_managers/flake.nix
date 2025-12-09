@@ -21,7 +21,7 @@
       imports = [
         self.inputs.feh.homeManagerModule.default
         self.inputs.i3.homeManagerModule.celeste
-        self.inputs.picom.homeManagerModule.default
+        self.inputs.picom.homeManagerModule.celeste
       ];
     };
   };

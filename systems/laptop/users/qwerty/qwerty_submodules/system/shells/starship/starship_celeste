@@ -1,51 +1,49 @@
-# Celeste Starship theme by Qw3rty26
-
-# Command status symbols
 [character]
-success_symbol = "[✓](#6EEB83)"    # green
-error_symbol = "[✗](#FF1C1C)"      # cherry red
-vicmd_symbol = "[❮](#FFD166)"      # gold
+success_symbol = "✓"
+error_symbol   = "✗"
+vicmd_symbol   = "❮"
+format         = "$symbol "
 
-# Username
 [username]
-style = "bold #9B5DE5"             # purple
+style_user = "bold fg:#FF5DA3"
+show_always = true
+format = "[$user]($style_user)@"
 
-# Current directory
+[hostname]
+ssh_only = false
+style = "bold fg:#4EC9DE"
+format = "[$hostname]($style) "
+
 [directory]
-style = "#4EA8DE"                   # light blue
+style = "fg:#1E90FF"
+read_only = " 🔒"
 
-# Git branch
 [git_branch]
-symbol = "🌿 "
-style = "#FF71CE"                   # bright pink
+symbol = "⎇ "
+style = "fg:#FF71CE"
 
-# Git state (staged, modified, etc.)
 [git_state]
-style = "#FFD166"                   # gold
+style = "bold fg:#FFD166"
 
-# Git status symbols
 [git_status]
-added = "[+](#6EEB83)"
-modified = "[!](#FFD166)"
-deleted = "[-](#FF1C1C)"
-renamed = "[➜](#4EA8DE)"
-untracked = "[?](#FF71CE)"
-stashed = "[💾](#9B5DE5)"
-conflicted = "[✖](#FF2D55)"
+staged      = "[+](fg:#FFD166)"
+modified    = "[~](fg:#FF5DA3)"
+deleted     = "[−](fg:#FF1C1C)"
+renamed     = "[→](fg:#4EC9DE)"
+untracked   = "[?](fg:#4EC9DE)"
+conflicted  = "[!](fg:#FF2D55)"
+stashed     = "[💾](fg:#FFD166)"
+ahead       = "⇡"
+behind      = "⇣"
+up_to_date  = "="
 
-# Time module
-[time]
-disabled = false
-format = "[$time]($style) "
-style = "bright-black"
-
-# Battery module
-[battery]
-full_symbol = "⚡"
-charging_symbol = "⚡"
-discharging_symbol = "🔋"
-style = "yellow"
-
-# Package versions
 [package]
-style = "magenta"
+symbol = "💾 "
+style  = "fg:#FFD166"
+disabled = false
+
+[time]
+disabled = true
+
+[battery]
+disabled = true

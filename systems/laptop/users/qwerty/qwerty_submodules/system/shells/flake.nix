@@ -16,7 +16,7 @@
     };
     homeManagerModule.celeste = { config, pkgs, ... }: {
       imports = [
-        self.inputs.starship.homeManagerModule.celeste
+        #self.inputs.starship.homeManagerModule.celeste
         self.inputs.zsh.homeManagerModule.celeste
       ];
     };

@@ -43,6 +43,10 @@
       home.file.".config/zsh/.zshrc" = {
         source = ./.zshrc_celeste;
       };
+      home.file.".config/zsh/oh-my-zsh" = {
+        source = ./oh-my-zsh;
+        recursive = true;
+      };
       home.file.".config/zsh/syntax-highlighting" = {
         source = ./syntax-highlighting;
         recursive = true;
