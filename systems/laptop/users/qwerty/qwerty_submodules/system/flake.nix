@@ -27,7 +27,7 @@
       imports = [
         self.inputs.audio.homeManagerModule.default
         self.inputs.crypt.homeManagerModule.default
-        self.inputs.consoles.homeManagerModule.default
+        self.inputs.consoles.homeManagerModule.celeste
         self.inputs.scripts.homeManagerModule.default
         self.inputs.shells.homeManagerModule.celeste
         self.inputs.window_managers.homeManagerModule.default

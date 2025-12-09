@@ -18,6 +18,10 @@
       imports = [
         self.inputs.system_module.nixosModules.default
       ];
+
+      fonts.fonts = with pkgs; [
+        monocraft
+      ];
     };  
   };
 }

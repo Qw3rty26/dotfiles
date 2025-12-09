@@ -13,5 +13,10 @@
         self.inputs.kitty.homeManagerModule.default
       ];
     };
+    homeManagerModule.celeste = { config, pkgs, ... }: {
+      imports = [
+        self.inputs.kitty.homeManagerModule.celeste
+      ];
+    };
   };
 }
