@@ -6,21 +6,21 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
     feh.url = "path:./feh";
     i3.url = "path:./i3";
+    pcmanfm.url = "path:./pcmanfm";
     picom.url = "path:./picom"; 
   };
 
   outputs = { self, nixpkgs, ... }: {
     homeManagerModule.default = { config, pkgs, ... }: {
       imports = [
-        self.inputs.feh.homeManagerModule.default
         self.inputs.i3.homeManagerModule.default
-        self.inputs.picom.homeManagerModule.default
       ];
     };
     homeManagerModule.celeste = { config, pkgs, ... }: {
       imports = [
         self.inputs.feh.homeManagerModule.default
         self.inputs.i3.homeManagerModule.celeste
+        self.inputs.pcmanfm.homeManagerModule.celeste
         self.inputs.picom.homeManagerModule.celeste
       ];
     };

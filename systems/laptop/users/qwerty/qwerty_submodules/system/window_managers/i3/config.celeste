@@ -32,6 +32,9 @@ exec_always --no-startup-id sh -c 'feh --no-fehbg --bg-scale "$(find -L $HOME/.c
 #Start compositor daemon picom
 exec_always --no-startup-id picom --daemon 
 
+#Start desktop manager daemon pcmanfm
+exec --no-startup-id pcmanfm --desktop
+
 #Set floating windows max size
 floating_maximum_size 1920 x 1080
 floating_minimum_size -1 x -1
