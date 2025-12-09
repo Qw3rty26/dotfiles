@@ -43,7 +43,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-+EnsCN6BkIu8YIoOEZJRgUs8o/f+WLkP7m6pZqg5cfc=",
+        "narHash": "sha256-lBWtyIrNdhtxbWPP6ImMeuc++tBOmNX6Oq/6mOVKhIs=",
         "path": "./qwerty_submodules",
         "type": "path"
       },
@@ -122,7 +122,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-1Vln0EqmeXIvxAkhhm9W6wdWwPCnal02f/KJ9ijMeo4=",
+        "narHash": "sha256-0pItE41i/b/imgc1tslyYbOK8MbRRMFyHBXoGRnUqYk=",
         "path": "./consoles",
         "type": "path"
       },
@@ -397,7 +397,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-M+eQMl5NwRhBqJDW1OUy4ua1oCGDcSzxYcWDCPxfbS4=",
+        "narHash": "sha256-PeFo1edPNJvfdDHgWaR3Ch4zViFXR01oGfdMCB3A0Ns=",
         "path": "./i3",
         "type": "path"
       },
@@ -427,7 +427,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-fZYblE7weEnjU+mdh38yuaX0tis0hXrRY84bPoOwZlA=",
+        "narHash": "sha256-HKwmSTZ1ts0Cd7QcN+XFJfIBpOs3UMKLWSHN1pNXEt0=",
         "path": "./kitty",
         "type": "path"
       },
@@ -443,7 +443,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-KS6qbfFCISBRLdcbXsOifqvQGVAuleWLeoxHjQ/Mqm0=",
+        "narHash": "sha256-kJucwDE4MhImocoWgW9MuuHVW7K0aeGQjcjwpBZJi1U=",
         "path": "./laptop",
         "type": "path"
       },
@@ -1323,7 +1323,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-dkrpUeqW4dwgIq6jPdlvCGEFNzOojUZRg+o8ZfZGRJc=",
+        "narHash": "sha256-ZjyqdTocaxyTX2dGK634fRuvSZlqMn4DWNOMDvPt6YQ=",
         "path": "./qwerty",
         "type": "path"
       },
@@ -1460,7 +1460,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-GAlOFW5k2Zc/Gb6Pro6KJlv43MRsZpJxoel9ir4OhY8=",
+        "narHash": "sha256-dRLYyTktuSzuuX4OkFz3ya0Armm4OznaacdkhieQns4=",
         "path": "./system",
         "type": "path"
       },
@@ -1493,7 +1493,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-mnyt+SmRBVRgptIDj0NPPS7qU+PlXiU/Toe7fskPjA8=",
+        "narHash": "sha256-iOrpx+MC+X16aL7ul1st1HAFDQKtWys01vzjqBOZIxY=",
         "path": "./systems",
         "type": "path"
       },
@@ -1540,7 +1540,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-zXyg531rDHltWzb+UgzcZxlv2YJp9JYoa3CjpoBW+Cw=",
+        "narHash": "sha256-1Z0yEZvd8e6W87sHQ5acN6MBG5IPfNOGjfbkEWz7BaA=",
         "path": "./users",
         "type": "path"
       },
@@ -1573,7 +1573,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-3lNmQUPPTO2pKKqik9lSQY+mAMFFrIF54DNazvpqqBc=",
+        "narHash": "sha256-sfq1/UzKJoYurhyjLcKmNnzDS5+qz/CO3gNWroucKn4=",
         "path": "./window_managers",
         "type": "path"
       },

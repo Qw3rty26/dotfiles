@@ -1,0 +1,19 @@
+#
+# Celeste zsh theme made by Qw3rty26
+
+#set up command history
+HISTSIZE="1000"
+SAVEHIST="1000"
+HISTFILE="$HOME/.config/zsh/zsh_history"
+
+#autosuggestions dir
+source $HOME/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+#syntax highlight dir
+source $HOME/.config/zsh/syntax-highlighting/zsh-syntax-highlighting.zsh
+
+#initialize starship
+eval "$(starship init zsh)"
+
+# Celeste zsh theme made by Qw3rty26
+#

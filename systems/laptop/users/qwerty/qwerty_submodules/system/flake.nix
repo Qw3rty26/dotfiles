@@ -30,7 +30,7 @@
         self.inputs.consoles.homeManagerModule.celeste
         self.inputs.scripts.homeManagerModule.default
         self.inputs.shells.homeManagerModule.celeste
-        self.inputs.window_managers.homeManagerModule.default
+        self.inputs.window_managers.homeManagerModule.celeste
       ];
     };
   };

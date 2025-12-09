@@ -19,11 +19,6 @@ client.urgent           #FFD166 #1D1F21 #FFD166 #E0E0E0
 gaps inner 5
 gaps outer 5
 
-# Workspaces (optional icons)
-set $ws1 "1:▢"
-set $ws2 "2:▢"
-set $ws3 "3:▢"
-
 #Variable configs
 set $mod Mod4
 

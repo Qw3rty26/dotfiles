@@ -11,9 +11,17 @@
      /* home.packages = with pkgs; [
         i3
       ];*/
- 
       home.file.".config/i3/config" = {  
-        source = ./config;
+        source = ./config.default;
+      };
+      home.file.".config/i3/wallpapers" = {
+        source = ./wallpapers;
+        recursive = true;
+      };
+    };
+    homeManagerModule.celeste = { config, pkgs, ... }: {
+      home.file.".config/i3/config" = {  
+        source = ./config.celeste;
       };
       home.file.".config/i3/wallpapers" = {
         source = ./wallpapers;

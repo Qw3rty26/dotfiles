@@ -1,0 +1,51 @@
+# Celeste Starship theme by Qw3rty26
+
+# Command status symbols
+[character]
+success_symbol = "[✓](#6EEB83)"    # green
+error_symbol = "[✗](#FF1C1C)"      # cherry red
+vicmd_symbol = "[❮](#FFD166)"      # gold
+
+# Username
+[username]
+style = "bold #9B5DE5"             # purple
+
+# Current directory
+[directory]
+style = "#4EA8DE"                   # light blue
+
+# Git branch
+[git_branch]
+symbol = "🌿 "
+style = "#FF71CE"                   # bright pink
+
+# Git state (staged, modified, etc.)
+[git_state]
+style = "#FFD166"                   # gold
+
+# Git status symbols
+[git_status]
+added = "[+](#6EEB83)"
+modified = "[!](#FFD166)"
+deleted = "[-](#FF1C1C)"
+renamed = "[➜](#4EA8DE)"
+untracked = "[?](#FF71CE)"
+stashed = "[💾](#9B5DE5)"
+conflicted = "[✖](#FF2D55)"
+
+# Time module
+[time]
+disabled = false
+format = "[$time]($style) "
+style = "bright-black"
+
+# Battery module
+[battery]
+full_symbol = "⚡"
+charging_symbol = "⚡"
+discharging_symbol = "🔋"
+style = "yellow"
+
+# Package versions
+[package]
+style = "magenta"
